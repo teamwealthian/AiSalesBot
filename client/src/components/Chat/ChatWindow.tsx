@@ -26,11 +26,11 @@ export default function ChatWindow({ messages, isLoading, error, onSend, onActio
       {/* Header */}
       <div className="bg-primary-600 text-white px-6 py-4 flex items-center gap-3">
         <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
-          <span className="text-lg font-bold">A</span>
+          <span className="text-lg font-bold">KK</span>
         </div>
         <div>
-          <h3 className="font-semibold text-sm">Alex — Sales Assistant</h3>
-          <p className="text-xs text-primary-100">Usually replies instantly</p>
+          <h3 className="font-semibold text-sm">Mentorship Assistant</h3>
+          <p className="text-xs text-primary-100">Kundan Kishore's Team</p>
         </div>
         <div className="ml-auto flex items-center gap-1.5">
           <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
@@ -47,7 +47,7 @@ export default function ChatWindow({ messages, isLoading, error, onSend, onActio
             </div>
             <h4 className="text-gray-700 font-medium mb-1">Welcome!</h4>
             <p className="text-gray-500 text-sm">
-              Say hello and I'll help you find the perfect solution for your needs.
+              Ask me anything about the 6-Month Options Trading Mentorship by Kundan Kishore.
             </p>
           </div>
         )}

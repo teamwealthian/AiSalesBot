@@ -6,9 +6,9 @@ interface Props {
 }
 
 const ACTION_STYLES: Record<string, { bg: string; icon: string }> = {
-  book_demo: { bg: 'bg-emerald-500 hover:bg-emerald-600', icon: '📅' },
-  capture_lead: { bg: 'bg-blue-500 hover:bg-blue-600', icon: '✉️' },
-  checkout: { bg: 'bg-purple-500 hover:bg-purple-600', icon: '🚀' },
+  book_demo: { bg: 'bg-emerald-500 hover:bg-emerald-600', icon: '📞' },
+  capture_lead: { bg: 'bg-blue-500 hover:bg-blue-600', icon: '💬' },
+  checkout: { bg: 'bg-purple-500 hover:bg-purple-600', icon: '🎓' },
   link: { bg: 'bg-gray-600 hover:bg-gray-700', icon: '🔗' },
 };
 
