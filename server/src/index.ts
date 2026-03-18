@@ -10,7 +10,9 @@ import { chatLimiter, leadsLimiter } from './middleware/rateLimit';
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: process.env.ALLOWED_ORIGINS?.split(',') || '*',
+}));
 app.use(express.json());
 
 // Initialize Firebase
