@@ -2,10 +2,9 @@
   "name": "ai-sales-bot-server",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js"
+     "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
